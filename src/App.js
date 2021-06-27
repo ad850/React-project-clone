@@ -19,6 +19,8 @@ function App() {
                     return (
 
                         <Card
+                             
+                             key ={val.id}
                             image={val.image}
                             title={val.title}
                             sname={val.sname}
